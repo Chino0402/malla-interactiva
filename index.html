@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Interactiva - Terapia Física y Rehabilitación</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>Malla Interactiva - Terapia Física y Rehabilitación</h1>
+
+  <div class="ciclo" id="ciclo1">
+    <button onclick="desbloquear('ciclo2')">1° Ciclo</button>
+    <ul>
+      <li>Técnicas básicas en atención de salud</li>
+      <li>Elementos de química general</li>
+      <li>Matemáticas básicas</li>
+      <li>Introducción a la terapia física</li>
+      <li>Filosofía y ética</li>
+      <li>Desarrollo personal y autonomía</li>
+      <li>Comunicación y redacción I</li>
+      <li>Inglés 1</li>
+    </ul>
+  </div>
+
+  <div class="ciclo bloqueado" id="ciclo2">
+    <button onclick="desbloquear('ciclo3')">2° Ciclo</button>
+    <ul>
+      <li>Fundamentos de química orgánica</li>
+      <li>Biología general</li>
+      <li>Física básica</li>
+      <li>Comunicación y redacción II</li>
+      <li>Cultura ambiental y desarrollo sostenible</li>
+      <li>Pensamiento científico e investigación</li>
+      <li>Ciencias sociales en el contexto actual</li>
+      <li>Inglés 2</li>
+    </ul>
+  </div>
+
+  <div class="ciclo bloqueado" id="ciclo3">
+    <button onclick="desbloquear('ciclo4')">3° Ciclo</button>
+    <ul>
+      <li>Fundamentos de morfofisiología</li>
+      <li>Anatomía topográfica y funcional del sistema musculoesquelético</li>
+      <li>Fundamentos del movimiento humano I</li>
+      <li>Actividad complementaria I</li>
+      <li>Inglés 3</li>
+    </ul>
+  </div>
+
+  <div class="ciclo bloqueado" id="ciclo4">
+    <button onclick="desbloquear('ciclo5')">4° Ciclo</button>
+    <ul>
+      <li>Estadística</li>
+      <li>Fisiopatología general</li>
+      <li>Fundamentos del movimiento humano II</li>
+      <li>Control motor y funcionamiento humano</li>
+      <li>Farmacología en fisioterapia</li>
+      <li>Asignatura electiva I</li>
+      <li>Actividad complementaria II</li>
+      <li>Inglés 4</li>
+    </ul>
+  </div>
+
+  <div class="ciclo bloqueado" id="ciclo5">
+    <button onclick="desbloquear('ciclo6')">5° Ciclo</button>
+    <ul>
+      <li>Fisiología del ejercicio</li>
+      <li>Razonamiento clínico en fisioterapia</li>
+      <li>Fisioterapia en pediatría I</li>
+      <li>Fisioterapia musculoesquelética I</li>
+      <li>Salud mental y rehabilitación inclusiva</li>
+      <li>Asignatura electiva II</li>
+      <li>Actividad complementaria III</li>
+    </ul>
+  </div>
+
+  <div class="ciclo bloqueado" id="ciclo6">
+    <button onclick="desbloquear('ciclo7')">6° Ciclo</button>
+    <ul>
+      <li>Fisioterapia cardiorrespiratoria I</li>
+      <li>Fisioterapia en neurología I</li>
+      <li>Fisioterapia musculoesquelética II</li>
+      <li>Ergonomía y salud laboral</li>
+      <li>Asignatura electiva III</li>
+      <li>Actividad complementaria IV</li>
+    </ul>
+  </div>
+
+  <div class="ciclo bloqueado" id="ciclo7">
+    <button onclick="desbloquear('ciclo8')">7° Ciclo</button>
+    <ul>
+      <li>Metodología de la investigación</li>
+      <li>Ética y deontología</li>
+      <li>Fisioterapia en pediatría II</li>
+      <li>Fisioterapia en neurología II</li>
+      <li>Fisioterapia cardiorrespiratoria II</li>
+      <li>Fisioterapia en comunidad</li>
+    </ul>
+  </div>
+
+  <div class="ciclo bloqueado" id="ciclo8">
+    <button onclick="desbloquear('ciclo9')">8° Ciclo</button>
+    <ul>
+      <li>Epidemiología y salud pública</li>
+      <li>Legislación en salud</li>
+      <li>Taller de diseño de proyecto de investigación</li>
+      <li>Gestión y administración en salud</li>
+      <li>Fisioterapia en deportes</li>
+      <li>Fisioterapia musculoesquelética III</li>
+      <li>Fisioterapia en geriatría</li>
+    </ul>
+  </div>
+
+  <div class="ciclo bloqueado" id="ciclo9">
+    <button onclick="desbloquear('ciclo10')">9° Ciclo</button>
+    <ul>
+      <li>Práctica en fisioterapia I</li>
+    </ul>
+  </div>
+
+  <div class="ciclo bloqueado" id="ciclo10">
+    <h2>10° Ciclo</h2>
+    <ul>
+      <li>Trabajo de investigación</li>
+      <li>Práctica en fisioterapia II</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
